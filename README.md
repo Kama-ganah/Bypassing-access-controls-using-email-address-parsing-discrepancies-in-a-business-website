@@ -1,7 +1,7 @@
 # Overview
-As a penetration tester, I assessed the access controls enforced during user registration, with a focus on email domain restrictions. During testing, I identified a business logic flaw caused by discrepancies between the application’s email validation logic and the underlying email parsing behavior. By abusing UTF-7–encoded email formats, I bypassed domain-based restrictions, successfully registered an unauthorized account, and gained access to administrative functionality. This project demonstrates how inconsistent input parsing can directly lead to access control bypass and full privilege escalation.
+I assessed the access controls enforced during user registration, with a focus on email domain restrictions. During testing, I identified a business logic flaw caused by discrepancies between the application’s email validation logic and the underlying email parsing behavior. By abusing UTF-7–encoded email formats, I bypassed domain-based restrictions, successfully registered an unauthorized account, and gained access to administrative functionality. This project demonstrates how inconsistent input parsing can directly lead to access control bypass and full privilege escalation.
 
-# Steps Undertaken
+# Methodology
 
 Step 1: Intercepted and analyzed registration requests to understand email validation logic.
 
